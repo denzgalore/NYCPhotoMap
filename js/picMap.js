@@ -12,7 +12,7 @@ $(document).ready(function(e){
 			var line = stations[i].line;
 			$('#subway').append('<a href="images/' + name + '.jpg"' + 
 				' title="' + line + " " + name + '" rel="prettyPhoto"' + name + '">' +
-				'<area shape="circle" coords="' + loc + '" border="1" /></a>');
+				'<area shape="circle" coords="' + loc + '" /></a>');
 	}
 	$("a[rel^='prettyPhoto']").prettyPhoto();
 	$('img[usemap]').rwdImageMaps();
