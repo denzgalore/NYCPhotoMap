@@ -5,7 +5,7 @@ var stations = [
 		{ line: "Red-line", name: "231st", loc: "286,595,15"}
 ];
 
-$(document).ready(function(){
+$(document).ready(function(e){
 	for(var i=0; i<stations.length; i++){
 			var loc = stations[i].loc;
 			var name = stations[i].name;
