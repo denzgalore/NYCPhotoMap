@@ -15,5 +15,6 @@ $(document).ready(function(){
 				'<area shape="circle" coords="' + loc + '" border="1" /></a>');
 	}
 	$("a[rel^='prettyPhoto']").prettyPhoto();
+	$('img[usemap]').rwdImageMaps();
 })
 
