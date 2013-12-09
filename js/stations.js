@@ -6,7 +6,7 @@ var stations = [
     { loc: "1061,904,15", name: "233 st" },
     { loc: "1059,945,15", name: "225 st" },
     { loc: "1068,982,15", name: "219 st" },
-    { loc: "1081,1022,15", name: "225 st" href="Gun Hill Rd" />
+    { loc: "1081,1022,15", name: "225 st" },
     { loc: "1113,1076,15", name: "Burke Av" },
     { loc: "1140,1113,15", name: "Allerton Av" },
     { loc: "1163,1157,15", name: "Pelham Pkwy" },
