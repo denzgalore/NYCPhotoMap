@@ -5,10 +5,10 @@ $(document).ready(function(e){
 				var loc = stations[i].loc;
 				var name = stations[i].name;
 				$('#subway').append('<a href="images/242st.jpg"' + 
-					' title="'+ name + '" rel="prettyPhoto"' + name + '">' +
+					' title="' + name + '" rel="prettyPhoto">' +
 					'<area shape="circle" coords="' + loc + '"/></a>');
 		}
-		$("a[rel^='prettyPhoto']").prettyPhoto();
+		$("a[rel^='prettyPhoto']").prettyPhoto({social_tools:false});
 		$('img[usemap]').rwdImageMaps();
 	});
 })
