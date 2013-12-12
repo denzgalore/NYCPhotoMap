@@ -9,3 +9,6 @@
 		max-width: 100%;
 		width: auto;
 	}
+	img#mainmap {
+		background: #000;
+	}
