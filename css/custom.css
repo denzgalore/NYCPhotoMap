@@ -1,16 +1,10 @@
 	html body {
-		background: #000;
 		font-family: Helvetica, Arial, sans-serif;
-		margin: 0 auto;
 	}
 	img[usemap] {
-		background: #000;
+
 		border: none;
 		height: auto;
 		max-width: 100%;
 		width: auto;
-	}
-	img#mainmap {
-		background: #000;
-		background-color: #000;
 	}
