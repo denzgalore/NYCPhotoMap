@@ -7,7 +7,7 @@ $(document).ready(function(e){
 					' title="' + name + '" rel="prettyPhoto" > ' +
 					'<area shape="circle" coords="' + loc + '" nohref="nohref" /></a>');
 		}
-		$(document).ready(function(){
+		$(document).ready(function(e){
 	$('a[rel^="prettyPhoto"]').prettyPhoto({social_tools: false});
 	$('img[usemap]').rwdImageMaps();
 });
